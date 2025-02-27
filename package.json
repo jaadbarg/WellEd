@@ -12,6 +12,8 @@
     "@formatjs/intl-localematcher": "^0.6.0",
     "@supabase/supabase-js": "^2.49.1",
     "@types/negotiator": "^0.6.3",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.4.7",
     "i18next": "^24.2.2",
     "i18next-resources-to-backend": "^1.2.1",

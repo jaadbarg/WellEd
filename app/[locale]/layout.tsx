@@ -8,6 +8,8 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import Schema from '../../components/Schema';
 import { Providers } from './providers';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -104,6 +106,8 @@ export default async function RootLayout({
             <main className="flex-grow">{children}</main>
             <Footer locale={locale} />
             <Schema />
+            <Analytics />
+            <SpeedInsights />
           </div>
         </Providers>
       </body>
