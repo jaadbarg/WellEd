@@ -15,7 +15,7 @@ export default function AsSeenOnSection() {
       height: 75
     },
     {
-      src: "https://thesatcrashcourse.com/wp-content/uploads/2023/09/download-1.webp",
+      src: "https://thesatcrashcourse.com/wp-content/uploads/2023/09/download-1.webp", // Note: Per requirements, same source for Boston Herald
       alt: "Boston Herald",
       width: 200,
       height: 75
@@ -92,6 +92,7 @@ export default function AsSeenOnSection() {
                 width={logo.width}
                 height={logo.height}
                 className="h-16 w-auto object-contain"
+                unoptimized={true}
               />
             </motion.div>
           ))}

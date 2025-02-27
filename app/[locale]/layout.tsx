@@ -6,13 +6,66 @@ import '../globals.css';
 import { getTranslations, locales } from '../i18n';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import Schema from '../../components/Schema';
 import { Providers } from './providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
-  title: 'The SAT Crash Course - Digital SAT Online Test Platform',
-  description: 'Top quality Digital SAT practice tests and prep courses to help you achieve your dream score.',
+  title: 'The SAT Crash Course - #1 Digital SAT Online Test Platform',
+  description: 'Achieve your dream SAT score with our top-quality Digital SAT practice tests and prep courses. Personalized learning, realistic practice tests, and expert guidance.',
+  keywords: 'SAT, Digital SAT, SAT prep, SAT practice test, SAT courses, college admissions, test prep, SAT crash course, SAT online',
+  authors: [{ name: 'The SAT Crash Course Team' }],
+  robots: 'index, follow',
+  icons: [
+    {
+      rel: 'icon',
+      url: 'https://thesatcrashcourse.com/wp-content/uploads/2024/01/the-sat-crash-course-logo.png'
+    },
+    {
+      rel: 'apple-touch-icon',
+      url: 'https://thesatcrashcourse.com/wp-content/uploads/2024/01/the-sat-crash-course-logo.png'
+    }
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://thesatcrashcourse.com',
+    siteName: 'The SAT Crash Course',
+    title: 'The SAT Crash Course - Digital SAT Online Preparation',
+    description: 'Ace the SAT with our adaptive practice tests and personalized study plans. Top quality Digital SAT preparation for students aiming for 1600.',
+    images: [
+      {
+        url: 'https://thesatcrashcourse.com/wp-content/uploads/2024/01/the-sat-crash-course-logo.png',
+        width: 800,
+        height: 600,
+        alt: 'The SAT Crash Course',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The SAT Crash Course - Digital SAT Online Preparation',
+    description: 'Boost your SAT score with our digital preparation platform. Expert guidance, practice tests, and personalized learning.',
+    images: ['https://thesatcrashcourse.com/wp-content/uploads/2024/01/the-sat-crash-course-logo.png'],
+  },
+  alternates: {
+    canonical: 'https://thesatcrashcourse.com',
+    languages: {
+      'en': 'https://thesatcrashcourse.com/en',
+      'zh': 'https://thesatcrashcourse.com/zh',
+      'hi': 'https://thesatcrashcourse.com/hi',
+      'ko': 'https://thesatcrashcourse.com/ko',
+      'es': 'https://thesatcrashcourse.com/es',
+      'vi': 'https://thesatcrashcourse.com/vi',
+    },
+  },
 };
 
 export async function generateStaticParams() {
@@ -50,6 +103,7 @@ export default async function RootLayout({
             <Navbar locale={locale} />
             <main className="flex-grow">{children}</main>
             <Footer locale={locale} />
+            <Schema />
           </div>
         </Providers>
       </body>

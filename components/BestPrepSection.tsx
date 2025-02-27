@@ -61,7 +61,7 @@ export default function BestPrepSection() {
                       id="tar-method-video"
                       src="https://thesatcrashcourse.com/wp-content/uploads/2024/04/The-Best-SAT-Prep-Method.mp4"
                       className="absolute inset-0 w-full h-full object-contain"
-                      poster="/video-thumbnail.jpg"
+                      poster="https://thesatcrashcourse.com/wp-content/uploads/2024/04/The-Best-SAT-Prep-Method-thumb.jpg"
                       controls={isPlaying}
                       onPlay={() => setIsPlaying(true)}
                       onPause={() => setIsPlaying(false)}

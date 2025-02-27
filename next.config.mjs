@@ -4,6 +4,7 @@ const nextConfig = {
     domains: [
       'thesatcrashcourse.com',
     ],
+    unoptimized: true,
   }
 };
 

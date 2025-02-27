@@ -92,7 +92,7 @@ export default function HeroSection({ locale }: { locale: string }) {
     // Set up interval to restart animation every 5 seconds
     const interval = setInterval(() => {
       startAnimation();
-    }, 5000);
+    }, 10000);
     
     // Clean up interval on component unmount
     return () => clearInterval(interval);
