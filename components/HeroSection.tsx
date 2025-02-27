@@ -181,10 +181,12 @@ export default function HeroSection({ locale }: { locale: string }) {
               className="mt-10"
             >
               <motion.div
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ 
+                  scale: 1.05,
+                  boxShadow: "0px 10px 25px rgba(0, 0, 0, 0.2)"
+                }}
                 whileTap={{ scale: 0.98 }}
                 initial={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}
-                whileHover={{ boxShadow: "0px 10px 25px rgba(0, 0, 0, 0.2)" }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <Link 

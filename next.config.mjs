@@ -4,9 +4,6 @@ const nextConfig = {
     domains: [
       'thesatcrashcourse.com',
     ],
-  },
-  experimental: {
-    appDir: true,
   }
 };
 
