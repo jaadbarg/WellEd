@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Trang chủ",
+    "practice_tests": "Bài kiểm tra SAT kỹ thuật số",
+    "dsat_tests": "Bài kiểm tra DSAT",
+    "for_educators": "Dành cho giáo viên",
+    "sat_courses": "Khóa học SAT",
+    "about_us": "Về chúng tôi",
+    "who_we_are": "Chúng tôi là ai",
+    "contact": "Liên hệ",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Khóa học cấp tốc SAT",
+    "subtitle": "Đạt điểm số mơ ước với chương trình ôn thi SAT kỹ thuật số chất lượng cao của chúng tôi. Học tập cá nhân hóa, bài kiểm tra thực tế và hướng dẫn chuyên gia.",
+    "cta": "Nhận bài kiểm tra mini miễn phí"
+  },
+  "offerings": {
+    "title": "Dịch vụ của chúng tôi",
+    "subtitle": "Chương trình ôn thi SAT kỹ thuật số trực tuyến",
+    "crash_course": "Khóa học cấp tốc SAT",
+    "crash_course_subtitle": "Đọc & Viết và Toán",
+    "crash_course_features": {
+      "feature1": "Bài học ngắn gọn và câu hỏi mẫu",
+      "feature2": "Đề xuất bài giảng cá nhân hóa",
+      "feature3": "Báo cáo điểm số và phân tích"
+    },
+    "practice_tests": "Bài kiểm tra SAT kỹ thuật số",
+    "practice_tests_subtitle": "SAT kỹ thuật số mới",
+    "practice_tests_features": {
+      "feature1": "Mô phỏng bài thi thật",
+      "feature2": "Các module thích ứng",
+      "feature3": "Ứng dụng kiểm tra tương tự"
+    },
+    "learn_more": "Tìm hiểu thêm"
+  },
+  "best_prep": {
+    "title": "Khóa học ôn thi SAT tốt nhất",
+    "subtitle": "Làm thế nào để đạt 1600 điểm SAT khi sử dụng bài kiểm tra của chúng tôi",
+    "description": "Các chuyên gia của chúng tôi đã phát triển phương pháp tối ưu để học sinh đạt 1600 điểm SAT. Đó là Phương pháp TAR — làm bài kiểm tra chất lượng, đánh giá điểm yếu của bạn và lặp lại. Chúng tôi đã thiết kế những bài kiểm tra tốt nhất để bạn sử dụng, chỉ cần làm theo các bước trong video để đạt điểm số mơ ước trong thời gian ngắn nhất.",
+    "learn_more": "Tìm hiểu thêm về phương pháp của chúng tôi",
+    "view_sample": "Xem bài kiểm tra mẫu",
+    "video_title": "Phương pháp TAR: Con đường dẫn đến thành công SAT",
+    "video_description": "Xem video này để tìm hiểu về phương pháp ba bước đã được chứng minh của chúng tôi, phương pháp đã giúp hàng nghìn học sinh đạt được điểm số mục tiêu của họ."
+  },
+  "practice_tests_section": {
+    "title": "Bài kiểm tra SAT kỹ thuật số chất lượng cao",
+    "description": "Là một phần trong giải pháp ôn thi SAT kỹ thuật số trực tuyến của chúng tôi, chúng tôi cung cấp hơn 10 bài kiểm tra SAT kỹ thuật số mô phỏng kỳ thi thực tế. Học sinh có thể làm quen với kiểu câu hỏi mới và giao diện ứng dụng kiểm tra bằng cách sử dụng các bài kiểm tra của chúng tôi. Ngoài ra, học sinh sẽ nhận được báo cáo phân tích điểm số chứa điểm mạnh và điểm yếu của họ, giúp họ lên kế hoạch học tập phù hợp.",
+    "feature1_title": "Trải nghiệm thực tế",
+    "feature1_desc": "Các bài kiểm tra của chúng tôi phản ánh chính xác giao diện và tính chất thích ứng của SAT kỹ thuật số chính thức.",
+    "feature2_title": "Phân tích chi tiết",
+    "feature2_desc": "Báo cáo điểm số toàn diện xác định điểm mạnh của bạn và chỉ ra các lĩnh vực cần cải thiện.",
+    "feature3_title": "Độ khó thích ứng",
+    "feature3_desc": "Câu hỏi điều chỉnh theo trình độ của bạn, giống như kỳ thi SAT kỹ thuật số thực tế.",
+    "cta": "Xem cách thức hoạt động"
+  },
+  "as_seen_on": {
+    "title": "Khóa học cấp tốc SAT",
+    "subtitle": "Được giới thiệu trên"
+  },
+  "footer": {
+    "description": "Khóa học cấp tốc SAT cung cấp bài kiểm tra thực hành và khóa học ôn thi SAT kỹ thuật số chất lượng cao để giúp học sinh đạt được điểm số mơ ước.",
+    "language": "Chọn ngôn ngữ",
+    "products": "Sản phẩm",
+    "company": "Công ty",
+    "legal": "Pháp lý",
+    "rights": "Đã đăng ký bản quyền."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "the-sat-crash-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.6.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "@types/negotiator": "^0.6.3",
+    "framer-motion": "^12.4.7",
+    "i18next": "^24.2.2",
+    "i18next-resources-to-backend": "^1.2.1",
+    "negotiator": "^1.0.0",
+    "next": "^14.1.3",
+    "next-i18next": "^15.4.2",
+    "next-intl": "^3.26.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.1.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "首页",
+    "practice_tests": "数字化SAT模拟测试",
+    "dsat_tests": "DSAT模拟测试",
+    "for_educators": "教育工作者专区",
+    "sat_courses": "SAT课程",
+    "about_us": "关于我们",
+    "who_we_are": "我们是谁",
+    "contact": "联系我们",
+    "blog": "博客"
+  },
+  "hero": {
+    "title": "SAT速成课程",
+    "subtitle": "通过我们高质量的数字化SAT准备课程，实现您的理想分数。个性化学习、真实模拟测试和专家指导。",
+    "cta": "获取免费迷你测试"
+  },
+  "offerings": {
+    "title": "我们提供什么",
+    "subtitle": "线上数字化SAT备考项目",
+    "crash_course": "SAT速成课程",
+    "crash_course_subtitle": "阅读与写作和数学",
+    "crash_course_features": {
+      "feature1": "精简课程和示例题目",
+      "feature2": "个性化讲座推荐",
+      "feature3": "成绩报告和分析"
+    },
+    "practice_tests": "数字化SAT模拟测试",
+    "practice_tests_subtitle": "新数字化SAT",
+    "practice_tests_features": {
+      "feature1": "模拟真实考试",
+      "feature2": "自适应模块",
+      "feature3": "类似的测试应用"
+    },
+    "learn_more": "了解更多"
+  },
+  "best_prep": {
+    "title": "最佳SAT备考课程",
+    "subtitle": "如何使用我们的测试获得1600满分",
+    "description": "我们的专家开发了让学生在SAT考试中获得1600分的终极方法。这就是TAR方法——参加高质量模拟测试，评估弱点，然后重复练习。我们设计了最好的测试供您使用，只需按照视频中的步骤，在最短的时间内获得理想分数。",
+    "learn_more": "了解更多关于我们方法的信息",
+    "view_sample": "查看样题",
+    "video_title": "TAR方法：通往SAT成功的途径",
+    "video_description": "观看此视频，了解我们经过验证的三步法，该方法已帮助数千名学生实现目标分数。"
+  },
+  "practice_tests_section": {
+    "title": "高质量数字化SAT模拟测试",
+    "description": "作为我们数字化SAT在线备考解决方案的一部分，我们提供10+套数字化SAT模拟测试，模仿真实考试。学生可以通过我们的测试熟悉新的题型和测试应用界面。此外，学生将收到成绩分析，其中包含他们的优势和弱点，帮助他们相应地规划学习。",
+    "feature1_title": "真实体验",
+    "feature1_desc": "我们的测试完全模仿官方数字化SAT的界面和自适应特性。",
+    "feature2_title": "详细分析",
+    "feature2_desc": "全面的成绩报告，识别您的优势并指出需要改进的领域。",
+    "feature3_title": "自适应难度",
+    "feature3_desc": "问题会根据您的技能水平进行调整，就像真正的数字化SAT考试一样。",
+    "cta": "了解运作方式"
+  },
+  "as_seen_on": {
+    "title": "SAT速成课程",
+    "subtitle": "合作媒体"
+  },
+  "footer": {
+    "description": "SAT速成课程提供高质量的数字化SAT模拟测试和备考课程，帮助学生实现理想分数。",
+    "language": "选择语言",
+    "products": "产品",
+    "company": "公司",
+    "legal": "法律声明",
+    "rights": "版权所有。"
+  }
+}

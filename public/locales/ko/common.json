@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "홈",
+    "practice_tests": "디지털 SAT 모의고사",
+    "dsat_tests": "DSAT 모의고사",
+    "for_educators": "교육자를 위한 정보",
+    "sat_courses": "SAT 코스",
+    "about_us": "회사 소개",
+    "who_we_are": "우리는 누구인가",
+    "contact": "연락처",
+    "blog": "블로그"
+  },
+  "hero": {
+    "title": "SAT 속성 과정",
+    "subtitle": "최고 품질의 디지털 SAT 준비를 통해 꿈의 점수를 달성하세요. 개인 맞춤형 학습, 실제와 같은 모의고사, 전문가 지도.",
+    "cta": "무료 미니 테스트 받기"
+  },
+  "offerings": {
+    "title": "제공 서비스",
+    "subtitle": "온라인 디지털 SAT 준비 프로그램",
+    "crash_course": "SAT 속성 과정",
+    "crash_course_subtitle": "읽기 및 쓰기, 수학",
+    "crash_course_features": {
+      "feature1": "간결한 강의와 예제 문제",
+      "feature2": "개인 맞춤형 강의 추천",
+      "feature3": "점수 보고서 및 분석"
+    },
+    "practice_tests": "디지털 SAT 모의고사",
+    "practice_tests_subtitle": "새로운 디지털 SAT",
+    "practice_tests_features": {
+      "feature1": "실제 시험 환경 재현",
+      "feature2": "적응형 모듈",
+      "feature3": "실제와 유사한 테스트 앱"
+    },
+    "learn_more": "더 알아보기"
+  },
+  "best_prep": {
+    "title": "최고의 SAT 준비 과정",
+    "subtitle": "우리의 테스트를 사용하여 1600점 SAT 점수 얻는 방법",
+    "description": "우리의 전문가들은 학생들이 SAT에서 1600점을 얻을 수 있는 최고의 방법을 개발했습니다. 그것은 TAR 방법입니다 — 질 좋은 모의고사를 치르고, 약점을 평가하고, 반복하세요. 우리는 여러분이 사용할 수 있는 최고의 테스트를 설계했으므로, 단지 비디오의 단계를 따라하면 최단 시간에 꿈의 점수를 얻을 수 있습니다.",
+    "learn_more": "우리의 방법에 대해 더 알아보기",
+    "view_sample": "샘플 테스트 보기",
+    "video_title": "TAR 방법: SAT 성공으로 가는 길",
+    "video_description": "수천 명의 학생들이 목표 점수를 달성하는 데 도움을 준 검증된 3단계 방법에 대해 알아보려면 이 비디오를 시청하세요."
+  },
+  "practice_tests_section": {
+    "title": "최고 품질의 디지털 SAT 모의고사",
+    "description": "디지털 SAT 온라인 준비 솔루션의 일환으로, 우리는 실제 시험을 모방한 10개 이상의 디지털 SAT 모의고사를 제공합니다. 학생들은 우리의 테스트를 통해 새로운 문제 스타일과 테스트 앱 인터페이스에 익숙해질 수 있습니다. 또한, 학생들은 자신의 강점과 약점을 포함한 점수 분석을 받게 되어 그에 따라 학습 계획을 세울 수 있습니다.",
+    "feature1_title": "실제 경험",
+    "feature1_desc": "우리의 테스트는 공식 디지털 SAT의 인터페이스와 적응형 특성을 그대로 반영합니다.",
+    "feature2_title": "상세 분석",
+    "feature2_desc": "여러분의 강점을 파악하고 개선이 필요한 영역을 지적하는 종합적인 점수 보고서.",
+    "feature3_title": "적응형 난이도",
+    "feature3_desc": "실제 디지털 SAT 시험처럼 문제가 여러분의 능력 수준에 맞춰 조정됩니다.",
+    "cta": "작동 방식 보기"
+  },
+  "as_seen_on": {
+    "title": "SAT 속성 과정",
+    "subtitle": "다음에 소개됨"
+  },
+  "footer": {
+    "description": "SAT 속성 과정은 학생들이 꿈의 점수를 달성할 수 있도록 최고 품질의 디지털 SAT 모의고사와 준비 과정을 제공합니다.",
+    "language": "언어 선택",
+    "products": "제품",
+    "company": "회사",
+    "legal": "법적 고지",
+    "rights": "모든 권리 보유."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "practice_tests": "Exámenes de Práctica del SAT Digital",
+    "dsat_tests": "Exámenes de Práctica DSAT",
+    "for_educators": "Para Educadores",
+    "sat_courses": "Cursos SAT",
+    "about_us": "Sobre Nosotros",
+    "who_we_are": "Quiénes Somos",
+    "contact": "Contáctanos",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Curso Intensivo del SAT",
+    "subtitle": "Logra tu puntaje ideal con nuestra preparación de alta calidad para el SAT Digital. Aprendizaje personalizado, exámenes de práctica realistas y orientación experta.",
+    "cta": "Obtén un Mini Examen Gratis"
+  },
+  "offerings": {
+    "title": "Lo Que Ofrecemos",
+    "subtitle": "Programas de Preparación en Línea para el SAT Digital",
+    "crash_course": "Cursos Intensivos del SAT",
+    "crash_course_subtitle": "Lectura, Escritura y Matemáticas",
+    "crash_course_features": {
+      "feature1": "Lecciones breves y preguntas de ejemplo",
+      "feature2": "Recomendación personalizada de conferencias",
+      "feature3": "Informe de puntaje y análisis"
+    },
+    "practice_tests": "Exámenes de Práctica del SAT Digital",
+    "practice_tests_subtitle": "Nuevo SAT Digital",
+    "practice_tests_features": {
+      "feature1": "Simula el examen real",
+      "feature2": "Módulos adaptativos",
+      "feature3": "Aplicación de prueba similar"
+    },
+    "learn_more": "Más información"
+  },
+  "best_prep": {
+    "title": "El Mejor Curso de Preparación para el SAT",
+    "subtitle": "Cómo Obtener 1600 Puntos en el SAT Usando Nuestros Exámenes",
+    "description": "Nuestros expertos han desarrollado el método definitivo para que los estudiantes obtengan 1600 en el SAT. Es el Método TAR: realizar exámenes de práctica de calidad, evaluar tus debilidades y repetir. Hemos diseñado los mejores exámenes para que los uses, simplemente sigue los pasos en el video para obtener tu puntaje ideal en el menor tiempo posible.",
+    "learn_more": "Aprende Más Sobre Nuestro Método",
+    "view_sample": "Ver Examen de Muestra",
+    "video_title": "El Método TAR: Tu Camino al Éxito en el SAT",
+    "video_description": "Mira este video para aprender nuestro método probado de tres pasos que ha ayudado a miles de estudiantes a lograr sus puntajes objetivo."
+  },
+  "practice_tests_section": {
+    "title": "Exámenes de Práctica de Alta Calidad para el SAT Digital",
+    "description": "Como parte de nuestras soluciones de preparación en línea para el SAT Digital, ofrecemos más de 10 exámenes de práctica que imitan el examen real. Los estudiantes pueden familiarizarse con el nuevo estilo de preguntas y la interfaz de la aplicación de prueba utilizando nuestros exámenes. Además, los estudiantes recibirán un análisis de su puntaje que contiene sus fortalezas y debilidades, lo que les ayudará a planificar sus estudios en consecuencia.",
+    "feature1_title": "Experiencia Realista",
+    "feature1_desc": "Nuestros exámenes reflejan exactamente la interfaz y la naturaleza adaptativa del SAT Digital oficial.",
+    "feature2_title": "Análisis Detallado",
+    "feature2_desc": "Informes de puntaje completos que identifican tus fortalezas y señalan áreas de mejora.",
+    "feature3_title": "Dificultad Adaptativa",
+    "feature3_desc": "Las preguntas se ajustan a tu nivel de habilidad, tal como en el examen SAT Digital real.",
+    "cta": "Ver Cómo Funciona"
+  },
+  "as_seen_on": {
+    "title": "Curso Intensivo del SAT",
+    "subtitle": "Como Se Ve En"
+  },
+  "footer": {
+    "description": "El Curso Intensivo del SAT ofrece exámenes de práctica y cursos de preparación de alta calidad para el SAT Digital para ayudar a los estudiantes a lograr sus puntajes ideales.",
+    "language": "Seleccionar Idioma",
+    "products": "Productos",
+    "company": "Empresa",
+    "legal": "Legal",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Home",
+    "practice_tests": "Digital SAT Practice Tests",
+    "dsat_tests": "DSAT Practice Tests",
+    "for_educators": "For Educators",
+    "sat_courses": "SAT Courses",
+    "about_us": "About Us",
+    "who_we_are": "Who We Are",
+    "contact": "Contact Us",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "The SAT Crash Course",
+    "subtitle": "Achieve your dream score with our top-quality Digital SAT prep. Personalized learning, realistic practice tests, and expert guidance.",
+    "cta": "Get a Free Mini Test"
+  },
+  "offerings": {
+    "title": "What We Offer",
+    "subtitle": "Online Digital SAT Prep Programs",
+    "crash_course": "The SAT Crash Courses",
+    "crash_course_subtitle": "Reading & Writing and Math",
+    "crash_course_features": {
+      "feature1": "Bite-sized lessons and sample questions",
+      "feature2": "Personalized lecture recommendation",
+      "feature3": "Score report and analysis"
+    },
+    "practice_tests": "Digital SAT Practice Tests",
+    "practice_tests_subtitle": "New Digital SAT",
+    "practice_tests_features": {
+      "feature1": "Simulate the real test",
+      "feature2": "Adaptive modules",
+      "feature3": "Similar testing app"
+    },
+    "learn_more": "Learn more"
+  },
+  "best_prep": {
+    "title": "The Best SAT Prep Course",
+    "subtitle": "How to Get 1600 SAT Score Using our Tests",
+    "description": "Our experts have devised the ultimate method for students to get 1600 on the SAT. It's The TAR Method — take quality practice tests, assess your weaknesses, and repeat. We've designed the best tests for you to use, so simply follow the steps in the video to get your dream score in the shortest time.",
+    "learn_more": "Learn More About Our Method",
+    "view_sample": "View Sample Test",
+    "video_title": "The TAR Method: Your Path to SAT Success",
+    "video_description": "Watch this video to learn our proven three-step method that has helped thousands of students achieve their target scores."
+  },
+  "practice_tests_section": {
+    "title": "Top-Quality Digital SAT Practice Tests",
+    "description": "As part of our digital SAT online preparation solutions, we offer 10+ Digital SAT practice tests that mimic the real exam. Students can get familiarized to the new question style and testing app interface using our tests. Also, students will receive their score analysis that contains their strengths and weaknesses that will help them plan their studies accordingly.",
+    "feature1_title": "Realistic Experience",
+    "feature1_desc": "Our tests mirror the exact interface and adaptive nature of the official Digital SAT.",
+    "feature2_title": "Detailed Analytics",
+    "feature2_desc": "Comprehensive score reports that identify your strengths and pinpoint areas for improvement.",
+    "feature3_title": "Adaptive Difficulty",
+    "feature3_desc": "Questions adjust to your skill level, just like the actual Digital SAT exam.",
+    "cta": "See How It Works"
+  },
+  "as_seen_on": {
+    "title": "The SAT Crash Course",
+    "subtitle": "As Seen On"
+  },
+  "footer": {
+    "description": "The SAT Crash Course offers top-quality Digital SAT practice tests and prep courses to help students achieve their dream scores.",
+    "language": "Select Language",
+    "products": "Products",
+    "company": "Company",
+    "legal": "Legal",
+    "rights": "All rights reserved."
+  }
+}
