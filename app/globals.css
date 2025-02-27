@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
-  --primary-color: 99, 102, 241;
-  --secondary-color: 168, 85, 247;
+  --foreground-rgb: 140, 140, 140; /* #8C8C8C - Dark Gray */
+  --background-rgb: 242, 242, 242; /* #F2F2F2 - Light Gray */
+  --primary-color: 3, 120, 166;    /* #0378A6 - Primary Blue */
+  --secondary-color: 8, 137, 166;  /* #0889A6 - Secondary Blue */
+  --accent-color: 99, 174, 191;    /* #63AEBF - Light Blue */
 }
 
 @font-face {
@@ -67,6 +68,11 @@ img {
 /* Optimize font display during loading */
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
+}
+
+/* Add text shadow utility for better text visibility on colored backgrounds */
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Add print styles */

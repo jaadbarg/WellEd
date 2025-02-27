@@ -1,10 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Link from 'next/link';
 import { useLanguage } from '../app/[locale]/providers';
 
-export default function OfferingsSection() {
+export default function OfferingsSection({ locale }: { locale: string }) {
   const { t } = useLanguage();
   const offerings = [
     {
@@ -106,12 +106,14 @@ export default function OfferingsSection() {
               </ul>
               
               <div className="mt-8">
-                <button className="inline-flex items-center font-medium text-blue-600 hover:text-blue-800">
-                  {t('offerings.learn_more')}
-                  <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </button>
+                <Link href={`/${locale}/paywall?section=offerings`}>
+                  <button className="inline-flex items-center font-medium text-brand-primary hover:text-brand-secondary">
+                    {t('offerings.learn_more')}
+                    <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </button>
+                </Link>
               </div>
             </motion.div>
           ))}

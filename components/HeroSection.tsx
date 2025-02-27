@@ -70,7 +70,7 @@ export default function HeroSection({ locale }: { locale: string }) {
     });
     
     // Start glare animation
-    glareControls.start({
+    await glareControls.start({
       opacity: [0, 0.07, 0],
       right: ["100%", "-10%", "-100%"],
       transition: { 
@@ -100,7 +100,7 @@ export default function HeroSection({ locale }: { locale: string }) {
   }, []);
   
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-brand-primary via-brand-secondary to-blue-900 overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 z-0 opacity-20">
         <div className="absolute inset-0" 
@@ -117,12 +117,12 @@ export default function HeroSection({ locale }: { locale: string }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight"
+              className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-brand-light leading-tight"
             >
               {t('hero.title')}
             </motion.h1>
             
-            <div className="mt-6 text-lg md:text-xl text-blue-100 max-w-2xl overflow-hidden">
+            <div className="mt-6 text-lg md:text-xl text-brand-light max-w-2xl overflow-hidden">
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -161,7 +161,7 @@ export default function HeroSection({ locale }: { locale: string }) {
                           type: "spring",
                           stiffness: 200
                         }}
-                        className="text-blue-300 mr-2"
+                        className="text-brand-accent mr-2"
                       >
                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -190,8 +190,8 @@ export default function HeroSection({ locale }: { locale: string }) {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <Link 
-                  href={`/${locale}/free-test`}
-                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-blue-900 bg-white hover:bg-blue-50 transition-colors shadow-md"
+                  href={`/${locale}/paywall?section=free-test`}
+                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-brand-primary bg-brand-light hover:bg-brand-accent/10 transition-colors shadow-md"
                 >
                   <span>{t('hero.cta')}</span>
                   <motion.div

@@ -9,17 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'brand': {
+          primary: '#0378A6',    // Primary Blue
+          secondary: '#0889A6',  // Secondary Blue
+          accent: '#63AEBF',     // Light Blue
+          light: '#F2F2F2',      // Light Gray
+          dark: '#8C8C8C',       // Dark Gray
+        },
         'blue': {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
-          800: '#3730a3',
-          900: '#312e81',
+          50: '#f0f9fc',
+          100: '#e0f2f7',
+          200: '#c2e5ee',
+          300: '#90d0e0',
+          400: '#63AEBF',  // Our accent color
+          500: '#3d9db2',
+          600: '#0889A6',  // Our secondary blue
+          700: '#0378A6',  // Our primary blue
+          800: '#025e80',
+          900: '#024d68',
         },
       },
       backgroundImage: {

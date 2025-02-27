@@ -2,10 +2,10 @@
 
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-
+import Link from 'next/link';
 import { useLanguage } from '../app/[locale]/providers';
 
-export default function BestPrepSection() {
+export default function BestPrepSection({ locale }: { locale: string }) {
   const { t } = useLanguage();
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px 0px" });
@@ -30,12 +30,16 @@ export default function BestPrepSection() {
               {t('best_prep.description')}
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
-              <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors shadow-md">
-                {t('best_prep.learn_more')}
-              </button>
-              <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg border border-blue-200 hover:bg-blue-50 transition-colors shadow-sm">
-                {t('best_prep.view_sample')}
-              </button>
+              <Link href={`/${locale}/paywall?section=best-prep`}>
+                <button className="px-6 py-3 bg-brand-primary text-white font-medium rounded-lg hover:bg-brand-secondary transition-colors shadow-md">
+                  {t('best_prep.learn_more')}
+                </button>
+              </Link>
+              <Link href={`/${locale}/paywall?section=best-prep`}>
+                <button className="px-6 py-3 bg-white text-brand-primary font-medium rounded-lg border border-brand-accent/30 hover:bg-brand-accent/10 transition-colors shadow-sm">
+                  {t('best_prep.view_sample')}
+                </button>
+              </Link>
             </div>
           </motion.div>
           
@@ -56,13 +60,26 @@ export default function BestPrepSection() {
                   
                   {/* Video container with proper aspect ratio for vertical video */}
                   <div className="relative pb-[177.78%] bg-gray-900 rounded-3xl overflow-hidden">
+                    {/* Fallback placeholder that's always visible behind the video */}
+                    <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-[#0378A6] to-[#0889A6] p-4 text-center">
+                      <div className="w-16 h-16 mb-4 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                      </div>
+                      <h3 className="text-lg font-bold text-white">The TAR Method</h3>
+                      <p className="text-sm text-white/80 mt-2">Test, Analyze, Review</p>
+                    </div>
+                    
                     {/* Vertical video */}
                     <video
                       id="tar-method-video"
                       src="https://thesatcrashcourse.com/wp-content/uploads/2024/04/The-Best-SAT-Prep-Method.mp4"
-                      className="absolute inset-0 w-full h-full object-contain"
+                      className="absolute inset-0 w-full h-full object-cover"
                       poster="https://thesatcrashcourse.com/wp-content/uploads/2024/04/The-Best-SAT-Prep-Method-thumb.jpg"
                       controls={isPlaying}
+                      preload="metadata"
                       onPlay={() => setIsPlaying(true)}
                       onPause={() => setIsPlaying(false)}
                       onEnded={() => setIsPlaying(false)}
@@ -80,11 +97,12 @@ export default function BestPrepSection() {
                           }
                         }}
                       >
-                        <div className="bg-blue-600 bg-opacity-80 rounded-full p-4 shadow-lg transform transition-transform hover:scale-110">
+                        <div className="bg-[#0378A6] bg-opacity-80 rounded-full p-4 shadow-lg transform transition-transform hover:scale-110 animate-pulse">
                           <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M8 5v14l11-7z" />
                           </svg>
                         </div>
+                        <span className="absolute bottom-6 bg-black/50 text-white px-3 py-1 rounded-full text-sm font-medium">Watch Demo</span>
                       </div>
                     )}
                   </div>
