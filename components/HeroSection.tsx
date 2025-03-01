@@ -188,10 +188,11 @@ export default function HeroSection({ locale }: { locale: string }) {
                 whileTap={{ scale: 0.98 }}
                 initial={{ boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)" }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                className="inline-block rounded-full"
               >
                 <Link 
                   href={`/${locale}/paywall?section=free-test`}
-                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-brand-primary bg-brand-light hover:bg-brand-accent/10 transition-colors shadow-md"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-brand-primary bg-brand-light transition-colors shadow-md"
                 >
                   <span>{t('hero.cta')}</span>
                   <motion.div
